@@ -1,0 +1,7 @@
+<cg-character-animation (animationLoaded)="hideLoader()"></cg-character-animation>
+<cg-header></cg-header>
+<ion-spinner *ngIf="showLoadingSpinner" style="left: 50%"></ion-spinner>
+<div class="cg-grid">
+  <ion-button (click)="startLobby()" class="cg-button cg-home--create-button"
+  >{{ 'GAME.START' | translate }}</ion-button>
+</div>

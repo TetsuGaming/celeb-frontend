@@ -1,0 +1,9 @@
+{
+  "GAME":{
+    "START": "Start"
+  },
+  "HOME": {
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": "Change language"
+  }
+}
